@@ -1,0 +1,7 @@
+Ever wanted to know how you would load your secret variable into your python project.
+Look no further, an example is given here.
+
+Inside the build.sh is a command to build your image, as you can see the build command includes some build args, these are inserted into the containers as env vars
+These can be used to superseed the variable defined in a .env file. Without the build arguments the values in the env file will be used.
+
+TL;DR: ensure your build pipeline runs the command as described in build.sh replacing the values for what you want

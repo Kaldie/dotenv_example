@@ -1,0 +1,1 @@
+docker build --build-arg KEY=SUPER_MAGIC_KEY --build-arg PASSWORD=SUPER_MAGIC_PASSWORD --tag test . 
